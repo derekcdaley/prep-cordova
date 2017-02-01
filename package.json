@@ -1,0 +1,15 @@
+{
+  "name": "prep-cordova",
+  "version": "1.1.3",
+  "description": "A lightweight library to allow cordova plugin consumption from an array in package.json",
+  "main": "main.js",
+  "bin": "./bin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Derek Daley <DerekCDaley@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "xml2js": "0.4.17"
+  }
+}
