@@ -36,7 +36,11 @@ var installPlugins = function(){
 }
 
 if(needPlatform){
+    var cleanCmd = "rimraf platforms && rimraf plugins && mkdirp platforms && mkdirp plugins";
+    exec(cleanCmd, {stdio: 'inherit'});
     installPlatforms(function(){installPlugins();});
 }else{
+    var cleanCmd = "rimraf plugins && mkdirp plugins";
+    exec(cleanCmd, {stdio: 'inherit'});
     installPlugins();
 }
