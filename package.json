@@ -1,9 +1,9 @@
 {
   "name": "prep-cordova",
-  "version": "1.2.0",
+  "version": "1.2.2",
   "description": "A lightweight library to allow cordova plugin consumption from an array in package.json",
   "main": "main.js",
-  "bin": "./bin.js",
+  "bin": "./main.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/derekcdaley/prep-cordova"
@@ -16,6 +16,8 @@
   "dependencies": {
     "xml2js": "0.4.17",
     "rimraf": "2.5.4",
-    "mkdirp": "0.5.1"
+    "mkdirp": "0.5.1",
+    "child_process" : "latest",
+    "fs": "latest"
   }
 }

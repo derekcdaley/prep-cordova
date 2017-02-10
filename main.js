@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var fs = require('fs');
 var xml2js = require('xml2js');
 var exec = require('child_process').execSync;
