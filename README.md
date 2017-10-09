@@ -1,4 +1,4 @@
-[![npm version](1.2.3)]
+[![NPM version](https://badge.fury.io/js/badge-list.svg)](http://badge.fury.io/js/badge-list)
 
 Install with `npm install prep-cordova`
 
