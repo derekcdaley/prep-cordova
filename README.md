@@ -1,3 +1,5 @@
+[![npm version](1.2.3)]
+
 Install with `npm install prep-cordova`
 
 ## API
