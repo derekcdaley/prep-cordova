@@ -1,3 +1,5 @@
+[![NPM version](https://github.com/derekcdaley/prep-cordova/blob/bugfix/mfp/npm.svg)](http://badge.fury.io/js/badge-list)
+
 Install with `npm install prep-cordova`
 
 ## API
